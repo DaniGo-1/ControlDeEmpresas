@@ -1,0 +1,25 @@
+{
+  "name": "controldeempresas",
+  "version": "1.0.0",
+  "description": "Busca una empresa dada",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Daniel Gomez Larin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "contains": "^0.1.1",
+    "express": "^4.16.4",
+    "ignore-case": "^0.1.0",
+    "includes": "0.0.7",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
+}
